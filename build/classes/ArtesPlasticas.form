@@ -88,7 +88,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Martes 13:30 a 15:30"/>
+        <Property name="text" type="java.lang.String" value="Martes 13:30 a 15:30hs"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel5">

@@ -8,12 +8,12 @@
  *
  * @author Matias
  */
-public class ArtesPlasticas extends javax.swing.JFrame {
+public class Tango extends javax.swing.JFrame {
 
     /**
-     * Creates new form ArtesPlasticas
+     * Creates new form Tango
      */
-    public ArtesPlasticas() {
+    public Tango() {
         initComponents();
     }
 
@@ -41,11 +41,11 @@ public class ArtesPlasticas extends javax.swing.JFrame {
 
         jLabel3.setText("Finalidad del taller:");
 
-        jLabel4.setText("Martes 13:30 a 15:30hs");
+        jLabel4.setText("Sabados de 15 a 17hs");
 
-        jLabel5.setText("Eliana Pagani");
+        jLabel5.setText("Natalia Rulli");
 
-        jLabel6.setText("El objetivo de este taller es que puedan aprender y utilizar mejor su imaginación. ");
+        jLabel6.setText("El objetivo del taller es que aprendan el baile clasico nacional y que puedan hacer obras juntos. ");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -55,17 +55,17 @@ public class ArtesPlasticas extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
+                        .addComponent(jLabel1)
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel4))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jLabel2)
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel5))
+                    .addGroup(layout.createSequentialGroup()
                         .addComponent(jLabel3)
                         .addGap(18, 18, 18)
-                        .addComponent(jLabel6))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel1)
-                            .addComponent(jLabel2))
-                        .addGap(26, 26, 26)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel5)
-                            .addComponent(jLabel4))))
+                        .addComponent(jLabel6)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -92,7 +92,7 @@ public class ArtesPlasticas extends javax.swing.JFrame {
     /**
      * @param args the command line arguments
      */
-   
+ 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;

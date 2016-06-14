@@ -43,7 +43,7 @@ public class Ajedrez extends javax.swing.JFrame {
 
         jLabel4.setText("Rodolfo Pérez");
 
-        jLabel5.setText("Viernes de 14 a 16 ");
+        jLabel5.setText("Viernes de 14 a 16hs");
 
         jLabel6.setText("El objetivo es que aprendan a desarrolar las hablidades lógicasy poder utlizarlas en lo diario.");
 
