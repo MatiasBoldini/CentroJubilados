@@ -116,8 +116,7 @@ public class Interfaz extends javax.swing.JFrame {
         // TODO add your handling code here:
         Talleres talleres=new Talleres();
         talleres.setVisible(true);
-        Interfaz interfaz = new Interfaz();
-        interfaz.setVisible(false);
+        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**

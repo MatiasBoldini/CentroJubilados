@@ -45,7 +45,7 @@ public class DisyCondeVest extends javax.swing.JFrame {
 
         jLabel5.setText("Beatriz Collaso");
 
-        jLabel6.setText("jLabel6");
+        jLabel6.setText("El objetivo de este taller es que aprendan a como organizarse y a diseñar ropa.");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -66,7 +66,7 @@ public class DisyCondeVest extends javax.swing.JFrame {
                         .addComponent(jLabel1)
                         .addGap(18, 18, 18)
                         .addComponent(jLabel4)))
-                .addContainerGap(203, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
