@@ -27,46 +27,50 @@ public class Interfaz extends javax.swing.JFrame {
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
+        Talleres = new javax.swing.JButton();
+        Viajes = new javax.swing.JButton();
+        ActiRecrea = new javax.swing.JButton();
+        DescJubilados = new javax.swing.JButton();
+        EncuCharJor = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
-        jButton6 = new javax.swing.JButton();
+        Socios = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setText("Bienvenido al menú del centro de jubliados");
 
-        jButton1.setText("Talleres");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        Talleres.setText("Talleres");
+        Talleres.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                TalleresActionPerformed(evt);
             }
         });
 
-        jButton2.setText("Viajes");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        Viajes.setText("Viajes");
+        Viajes.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                ViajesActionPerformed(evt);
             }
         });
 
-        jButton3.setText("Actividades recreativas");
+        ActiRecrea.setText("Actividades recreativas");
 
-        jButton4.setText("Descuentos para jubilados");
+        DescJubilados.setText("Descuentos para jubilados");
 
-        jButton5.setText("Encuentros, charlas y jornadas");
+        EncuCharJor.setText("Encuentros, charlas y jornadas");
 
         jLabel2.setText("Elija el botón el cual quiera obtener información");
 
+<<<<<<< HEAD
         jButton6.setText("Socios");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
             }
         });
+=======
+        Socios.setText("Socios");
+>>>>>>> c4e6401a62b37a99d14dee78f5826719f4169202
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -78,23 +82,33 @@ public class Interfaz extends javax.swing.JFrame {
                         .addContainerGap()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jButton4)
+                                .addComponent(DescJubilados)
                                 .addGap(18, 18, 18)
-                                .addComponent(jButton5))
+                                .addComponent(EncuCharJor))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jButton1)
+                                .addComponent(Talleres)
                                 .addGap(18, 18, 18)
-                                .addComponent(jButton2)
+                                .addComponent(Viajes)
                                 .addGap(18, 18, 18)
+<<<<<<< HEAD
                                 .addComponent(jButton3)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(jButton6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+=======
+                                .addComponent(ActiRecrea)
+                                .addGap(18, 18, 18)
+                                .addComponent(Socios))))
+>>>>>>> c4e6401a62b37a99d14dee78f5826719f4169202
                     .addGroup(layout.createSequentialGroup()
                         .addGap(91, 91, 91)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel2)
                             .addComponent(jLabel1))))
+<<<<<<< HEAD
                 .addContainerGap(39, Short.MAX_VALUE))
+=======
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+>>>>>>> c4e6401a62b37a99d14dee78f5826719f4169202
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -105,29 +119,30 @@ public class Interfaz extends javax.swing.JFrame {
                 .addComponent(jLabel2)
                 .addGap(24, 24, 24)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1)
-                    .addComponent(jButton2)
-                    .addComponent(jButton3)
-                    .addComponent(jButton6))
+                    .addComponent(Talleres)
+                    .addComponent(Viajes)
+                    .addComponent(ActiRecrea)
+                    .addComponent(Socios))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton4)
-                    .addComponent(jButton5))
+                    .addComponent(DescJubilados)
+                    .addComponent(EncuCharJor))
                 .addContainerGap(22, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void ViajesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ViajesActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_ViajesActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void TalleresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TalleresActionPerformed
         // TODO add your handling code here:
         Talleres talleres=new Talleres();
         talleres.setVisible(true);
         
+<<<<<<< HEAD
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
@@ -135,6 +150,10 @@ public class Interfaz extends javax.swing.JFrame {
         socios.setVisible(true);
     }//GEN-LAST:event_jButton6ActionPerformed
 
+=======
+    }//GEN-LAST:event_TalleresActionPerformed
+                                                                                                                                                                                
+>>>>>>> c4e6401a62b37a99d14dee78f5826719f4169202
     /**
      * @param args the command line arguments
      */
@@ -171,12 +190,12 @@ public class Interfaz extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
+    private javax.swing.JButton ActiRecrea;
+    private javax.swing.JButton DescJubilados;
+    private javax.swing.JButton EncuCharJor;
+    private javax.swing.JButton Socios;
+    private javax.swing.JButton Talleres;
+    private javax.swing.JButton Viajes;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables

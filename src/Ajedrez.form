@@ -98,7 +98,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel6">
       <Properties>
-        <Property name="text" type="java.lang.String" value="El objetivo es que aprendan a desarrolar las hablidades l&#xf3;gicasy poder utlizarlas en lo diario."/>
+        <Property name="text" type="java.lang.String" value="El objetivo es que aprendan a desarrolar las hablidades l&#xf3;gicas y poder utlizarlas en lo diario."/>
       </Properties>
     </Component>
   </SubComponents>

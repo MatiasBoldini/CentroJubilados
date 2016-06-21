@@ -45,7 +45,7 @@ public class Ajedrez extends javax.swing.JFrame {
 
         jLabel5.setText("Viernes de 14 a 16hs");
 
-        jLabel6.setText("El objetivo es que aprendan a desarrolar las hablidades lógicasy poder utlizarlas en lo diario.");
+        jLabel6.setText("El objetivo es que aprendan a desarrolar las hablidades lógicas y poder utlizarlas en lo diario.");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
